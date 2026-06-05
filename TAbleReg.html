@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+<body>
+
+<form>
+    <fieldset>
+        <legend>Registration Form</legend>
+
+        <table cellpadding="8">
+            <tr>
+                <td><label for="userName">User Name</label></td>
+                <td><input id="userName" name="userName" type="text"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input id="email" name="email" type="email"></td>
+            </tr>
+
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input id="password" name="password" type="password"></td>
+            </tr>
+
+            <tr>
+                <td><label for="phonenumber">Phone Number</label></td>
+                <td><input id="phonenumber" name="phonenumber" type="number"></td>
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input id="male" type="radio" name="gender" value="Male">
+                    <label for="male">Male</label>
+
+                    <input id="female" type="radio" name="gender" value="Female">
+                    <label for="female">Female</label>
+
+                    <input id="others" type="radio" name="gender" value="Others">
+                    <label for="others">Others</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="dob">Date of Birth</label></td>
+                <td><input type="date" id="dob" name="dob"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="submit">Submit the Form</button>
+                </td>
+            </tr>
+        </table>
+
+    </fieldset>
+</form>
+
+</body>
+</html>
