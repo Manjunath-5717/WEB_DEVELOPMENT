@@ -29,8 +29,8 @@ My goal is to build a strong foundation in web development through consistent le
 
 ### CSS3 🔄 Upcoming
 
-* CSS Fundamentals
-* Selectors
+* CSS Fundamentals completed
+* Selectors        completed
 * Colors & Backgrounds
 * Box Model
 * Flexbox
