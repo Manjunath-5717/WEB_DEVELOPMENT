@@ -1,6 +1,6 @@
 # 🌐 Web Technology
 
-A repository dedicated to learning and practicing modern web development concepts using HTML, CSS, and JavaScript.
+A repository dedicated to learning and practicing modern web development concepts using HTML, CSS,JavaScript and React.
 
 ## 📖 About
 
