@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main>section:first-child>article{
+            height:200px;
+            width:100px;
+            border:1px solid;
+        
+        }
+        main>section:nth-child>article{
+         height:100px;
+         width:200px;
+         border:1px solid;
+        }
+        main>section>first-child>article>first-child{
+            border-color: black;
+        } 
+         main>section>first-child>article>nth-child(2){
+            border-color: pink;
+         }  main>section>first-child>article>nth-child(3){
+            border-color: red;
+        } 
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <article></article>
+            <article></article>
+            <article></article>
+            
+            </section>
+            <section>
+                <article></article>
+                <article></article>
+                <article></article>
+                </section>
+       
+</body>
+</html>
