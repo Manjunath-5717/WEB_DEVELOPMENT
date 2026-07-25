@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Objects</title>
+</head>
+<body>
+  
+  <script>
+    /*
+ const product={
+  name:'socks', //properet and value
+  price:1000
+ };
+ console.log(product);
+ console.log(product.name);
+ console.log(product.price);
+ product.name='cotton socks';
+ console.log(product);
+ */
+
+ const product2={
+  name:'shirt',
+  ['delivery-time']:'1 day',
+
+  rating:{
+    stars:4.5,
+    count:87
+  },
+  fun:function fun1(){
+    console.log('fuction inside obejct');
+  }
+ };
+console.log(product2);
+console.log(product2.name);
+console.log(product2['name']);
+console.log(product2);
+console.log(product2['delivery-time']);
+
+console.log(product2.rating.count);
+product2.fun();
+  </script>
+</body>
+</html>
