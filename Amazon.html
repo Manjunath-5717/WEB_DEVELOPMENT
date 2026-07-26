@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon-Shipping </title>
+</head>
+<body>
+  <p>Amazon Shipping Calculation </p>
+  <input placeholder="cost of Order" class="js-cost-input">
+  <button onclick="
+  calculateToatl();
+  ">Calculate</button>
+  <p class="js-toatl"></p>
+  <script>
+ function calculateToatl(){
+ const inputElement =document.querySelector('.js-cost-input');
+ let cost=Number(inputElement.value);
+ if(cost<40){
+  cost=cost + 10;
+ }
+ document.querySelector('.js-toatl').innerHTML=`$${cost}`;
+ }
+  </script>
+  
+</body>
+</html>
