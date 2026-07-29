@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Functions</title>
+</head>
+<body>
+  <script>
+    greeting();
+  function greeting(){
+    console.log('hello');
+  }
+  greeting();//calling the function or calling the function.
+
+  const num=2;
+  const function1=function (){//anynomous function function without name is called anonynoums.
+    console.log('hello2');
+  };
+  console.log(function1);
+  console.log(typeof function1);
+  function1();
+  //in js functions are values means we can save a value in varibale or object.
+
+  const object1={
+    num:2,
+    fun:function (){//anynoumous function means without having name
+      console.log('hello3');
+    }
+  };
+  object1.fun();  //this is called method when we save function inside a object.
+  function display(param){
+
+    console.log(param);
+  }
+  display(2);// passing a vleue into a function.
+
+  function run(param){
+   param();
+  }
+  run(function greet(){
+    console.log('hello');
+  });
+
+  //functions are value.
+
+  //setTimeOut allows us to run a progrm in the functure.
+
+  setTimeout(function(){
+    console.log('timeout');
+  },3000);
+
+  
+  setTimeout(function gretting(){
+    console.log('manju'),
+    console.log('manju2');
+  },5000);
+  
+  //Asynchronous code. computer wont wait to execute a line.
+  console.log('next Line');
+
+  //synchronous code
+  //will wait for one line to finish before goig to the next line.
+
+
+  //setInterval
+  setInterval(function(){
+    console.log('inetrval');
+  },3000);
+  console.log('next line two')
+  </script>
+</body>
+</html>
