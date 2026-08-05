@@ -1,141 +1,223 @@
 # 🌐 Web Technology
 
-A repository dedicated to learning and practicing modern web development concepts using HTML, CSS,JavaScript and React.
-
-## 📖 About
-
-This repository documents my journey of learning frontend web development from the ground up. It contains concepts, practice exercises, notes, and projects built while exploring modern web technologies.
-
-My goal is to build a strong foundation in web development through consistent learning, hands-on practice, and project-based development.
+A comprehensive repository for learning and practicing modern frontend web development using **HTML5, CSS3, and JavaScript (ES6+)** through hands-on projects and real-world applications.
 
 ---
 
-## 🚀 Current Progress
+# 📖 About
 
-### HTML5 ✅ Completed
+This repository documents my journey of learning frontend web development from the ground up. It contains concepts, notes, practice exercises, and projects that I built while learning modern web technologies.
 
-| Topic                    | Status      |
-| ------------------------ | ----------- |
-| Introduction to HTML     | ✅ Completed |
-| Basic Document Structure | ✅ Completed |
-| Headings & Paragraphs    | ✅ Completed |
-| Anchor Tags              | ✅ Completed |
-| Semantic HTML            | ✅ Completed |
-| Multi-page Navigation    | ✅ Completed |
-| Lists                    | ✅ Completed |
-| Tables                   | ✅ Completed |
-| Forms                    | ✅ Completed |
-| Multimedia               | ✅ Completed |
+My goal is to develop strong frontend development skills by writing clean code, building practical projects, and following industry-standard development practices.
 
-### CSS3 🔄 Upcoming
+---
 
-* CSS Fundamentals completed
-* Selectors        completed
-* Colors & Backgrounds
+# 🚀 Current Progress
+
+## ✅ HTML5 (Completed)
+
+* HTML Introduction
+* Document Structure
+* Headings & Paragraphs
+* Links & Navigation
+* Images & Multimedia
+* Lists
+* Tables
+* Forms
+* Semantic HTML
+* Multi-page Websites
+
+---
+
+## ✅ CSS3 (Completed)
+
+* CSS Fundamentals
+* Selectors
+* Colors
+* Backgrounds
+* Typography
 * Box Model
+* Display Properties
+* Positioning
 * Flexbox
 * CSS Grid
 * Responsive Design
-* Animations & Transitions
-
-### JavaScript 📌 Planned
-
-* Variables & Data Types
-* Functions
-* Arrays & Objects
-* DOM Manipulation
-* Events
-* ES6 Features
-* API Integration
+* Animations
+* Transitions
 
 ---
 
-## 🛣️ Learning Roadmap
+## 🔄 JavaScript (In Progress)
 
-### Phase 1: HTML Foundations ✅
+### Fundamentals
+
+* Variables (`let`, `const`, `var`)
+* Data Types
+* Operators
+* Conditional Statements
+* Loops
+* Functions
+* Arrow Functions
+* Objects
+* Arrays
+* Template Literals
+
+### DOM Manipulation
+
+* Selecting Elements
+* Updating HTML & CSS
+* Event Handling
+* `onclick`
+* `addEventListener()`
+* Forms
+* Dynamic Rendering
+
+### Advanced Concepts
+
+* `forEach()`
+* Modules
+* External Libraries
+* Basic MVC Pattern
+
+---
+
+# 💻 Projects
+
+## ✅ Completed
+
+* Cart Quantity App
+* YouTube Subscribe Button
+* To-Do List
+* To-Do List (using `forEach()`)
+* JavaScript Practice Programs
+
+## 🚧 Currently Building
+
+* Amazon Clone (HTML + CSS + JavaScript)
+
+### Planned Features
+
+* Product Listing
+* Add to Cart
+* Update Quantity
+* Remove from Cart
+* Search Products
+* Checkout Page
+* Order Summary
+* Responsive Design
+
+---
+
+# 🛣️ Learning Roadmap
+
+## ✅ Phase 1 – HTML
 
 * [x] HTML Basics
 * [x] Semantic HTML
-* [x] Navigation
-* [x] Lists
-* [x] Tables
 * [x] Forms
+* [x] Tables
 * [x] Multimedia
 
-### Phase 2: CSS Mastery 🔄
+## ✅ Phase 2 – CSS
 
-* [ ] CSS Fundamentals
-* [ ] Box Model
-* [ ] Flexbox
-* [ ] CSS Grid
-* [ ] Responsive Design
-* [ ] Animations
+* [x] CSS Fundamentals
+* [x] Flexbox
+* [x] Grid
+* [x] Responsive Design
+* [x] Animations
 
-### Phase 3: JavaScript Fundamentals
+## 🔄 Phase 3 – JavaScript
 
-* [ ] Variables & Data Types
-* [ ] Functions
-* [ ] Arrays & Objects
-* [ ] DOM Manipulation
-* [ ] Events
-* [ ] ES6 Features
+* [x] Variables
+* [x] Functions
+* [x] Arrays
+* [x] Objects
+* [x] Loops
+* [x] DOM Manipulation
+* [x] Events
+* [x] Arrow Functions
+* [x] Modules
+* [x] External Libraries
+* [ ] Promises
+* [ ] Async / Await
+* [ ] Fetch API
 
-### Phase 4: Projects
+## 📌 Phase 4 – Projects
 
-* [ ] Personal Portfolio Website
-* [ ] Landing Page
-* [ ] Calculator App
-* [ ] To-Do Application
+* [x] Cart Quantity App
+* [x] To-Do List
+* [x] YouTube Subscribe Button
+* [ ] Amazon Clone
 * [ ] Weather App
+* [ ] Calculator
+* [ ] Notes App
+* [ ] Portfolio Website
 
 ---
 
-## 📂 Repository Structure
+# 📂 Repository Structure
 
 ```text
 web_technology/
+│
 ├── html/
 ├── css/
 ├── javascript/
 ├── projects/
+│   ├── amazon-clone/
+│   ├── todo-list/
+│   ├── cart-quantity/
+│   └── youtube-subscribe/
+│
 └── README.md
 ```
 
-## 🛠️ Tech Stack
+---
 
-* HTML5 ✅
-* CSS3 🔄
-* JavaScript (ES6+) 📌
+# 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript (ES6+)
 
 ---
 
-## 📊 Repository Stats
+# 📊 Repository Stats
 
-* HTML Topics Completed: **10/10**
-* Technologies Learned: **HTML5**
-* Current Focus: **CSS Fundamentals**
-* Status: **Actively Maintained**
-
----
-
-## 🎯 Goal
-
-To become proficient in frontend web development by mastering HTML, CSS, and JavaScript, and by building real-world projects that demonstrate practical skills and industry-standard development practices.
+| Category           | Status                 |
+| ------------------ | ---------------------- |
+| HTML               | ✅ Completed            |
+| CSS                | ✅ Completed            |
+| JavaScript         | 🔄 In Progress         |
+| Projects Completed | 4+                     |
+| Current Project    | Amazon Clone           |
+| Repository Status  | 🚀 Actively Maintained |
 
 ---
 
-## 🤝 Contributions
+# 🎯 Goals
 
-This repository is primarily for learning purposes. Suggestions, improvements, and feedback are always welcome.
+* Master HTML, CSS, and JavaScript
+* Build real-world frontend projects
+* Write clean and maintainable code
+* Improve problem-solving skills
+* Learn React after mastering JavaScript
+* Build a professional frontend portfolio
 
 ---
 
-## ⭐ Support
+# 🤝 Contributions
+
+This repository is primarily for learning and practice. Suggestions, improvements, and feedback are always welcome.
+
+---
+
+# ⭐ Support
 
 If you find this repository helpful, consider giving it a **Star ⭐**.
 
-It motivates me to continue learning and sharing my progress.
+Your support motivates me to keep learning and building more projects.
 
 ---
 
-> "Consistency beats intensity. Small daily improvements lead to remarkable results."
+> **"Consistency beats intensity. Small daily improvements lead to remarkable results."**
