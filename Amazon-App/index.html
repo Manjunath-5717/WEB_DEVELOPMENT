@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Amazon-Clone</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Main Header -->
+    <header class="main-header">
+
+        <div class="logo">
+            ShopZone
+        </div>
+
+        <div class="location">
+            <span>Deliver to</span>
+            <strong>Bengaluru 560001</strong>
+        </div>
+
+        <!-- Search -->
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search products"
+            >
+
+            <button id="searchBtn">
+                Search
+            </button>
+
+        </div>
+
+        <div class="header-link" id="accountBtn">
+            <span>Hello, Sign in</span>
+            <strong>Account</strong>
+        </div>
+
+        <div class="header-link" id="ordersBtn">
+            <span>Returns</span>
+            <strong>& Orders</strong>
+        </div>
+
+        <!-- Cart -->
+        <button class="cart-button" id="cartBtn">
+            Cart
+            <span id="cartCount">0</span>
+        </button>
+
+    </header>
+
+
+    <!-- Secondary Navigation -->
+    <nav class="secondary-nav">
+
+        <button id="menuBtn">
+            ☰ All
+        </button>
+
+        <a href="#products">
+            Today's Deals
+        </a>
+
+        <a href="#categories">
+            Categories
+        </a>
+
+        <a href="#products">
+            Best Sellers
+        </a>
+
+        <a href="#footer">
+            Customer Service
+        </a>
+
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p>Welcome to Amazon-colne</p>
+
+            <h1>
+                Great products at great prices
+            </h1>
+
+            <p>
+                Explore electronics, fashion, home products and more.
+            </p>
+
+            <button id="shopNowBtn">
+                Shop Now
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- Categories -->
+    <section class="section" id="categories">
+
+        <h2>
+            Shop by Category
+        </h2>
+
+        <div class="category-container">
+
+            <div class="category-card">
+                <div class="category-icon">📱</div>
+                <h3>Electronics</h3>
+                <p>Mobiles, laptops and accessories</p>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">👕</div>
+                <h3>Fashion</h3>
+                <p>Clothing and everyday fashion</p>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">🏠</div>
+                <h3>Home</h3>
+                <p>Useful products for your home</p>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">🎧</div>
+                <h3>Accessories</h3>
+                <p>Headphones, watches and more</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Products -->
+    <section class="section" id="products">
+
+        <h2>
+            Popular Products
+        </h2>
+
+        <p id="searchMessage"></p>
+
+        <div class="product-container">
+
+            <!-- Product 1 -->
+            <div
+                class="product-card"
+                data-name="Wireless Headphones"
+                data-price="1499"
+            >
+
+                <img
+                    src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80"
+                    alt="Wireless Headphones"
+                >
+
+                <h3>Wireless Headphones</h3>
+
+                <p class="rating">
+                    ★★★★☆ 4.3
+                </p>
+
+                <p class="price">
+                    ₹1,499
+                </p>
+
+                <button class="add-cart">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <!-- Product 2 -->
+            <div
+                class="product-card"
+                data-name="Smart Watch"
+                data-price="2299"
+            >
+
+                <img
+                    src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=500&q=80"
+                    alt="Smart Watch"
+                >
+
+                <h3>Smart Watch</h3>
+
+                <p class="rating">
+                    ★★★★☆ 4.4
+                </p>
+
+                <p class="price">
+                    ₹2,299
+                </p>
+
+                <button class="add-cart">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <!-- Product 3 -->
+            <div
+                class="product-card"
+                data-name="Laptop Backpack"
+                data-price="899"
+            >
+
+                <img
+                    src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=500&q=80"
+                    alt="Laptop Backpack"
+                >
+
+                <h3>Laptop Backpack</h3>
+
+                <p class="rating">
+                    ★★★★☆ 4.2
+                </p>
+
+                <p class="price">
+                    ₹899
+                </p>
+
+                <button class="add-cart">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <!-- Product 4 -->
+            <div
+                class="product-card"
+                data-name="Running Shoes"
+                data-price="1799"
+            >
+
+                <img
+                    src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=500&q=80"
+                    alt="Running Shoes"
+                >
+
+                <h3>Running Shoes</h3>
+
+                <p class="rating">
+                    ★★★★★ 4.6
+                </p>
+
+                <p class="price">
+                    ₹1,799
+                </p>
+
+                <button class="add-cart">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <!-- Product 5 -->
+            <div
+                class="product-card"
+                data-name="Coffee Maker"
+                data-price="2499"
+            >
+
+                <img
+                    src="https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=500&q=80"
+                    alt="Coffee Maker"
+                >
+
+                <h3>Coffee Maker</h3>
+
+                <p class="rating">
+                    ★★★★☆ 4.1
+                </p>
+
+                <p class="price">
+                    ₹2,499
+                </p>
+
+                <button class="add-cart">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <!-- Product 6 -->
+            <div
+                class="product-card"
+                data-name="Bluetooth Speaker"
+                data-price="1299"
+            >
+
+                <img
+                    src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=500&q=80"
+                    alt="Bluetooth Speaker"
+                >
+
+                <h3>Bluetooth Speaker</h3>
+
+                <p class="rating">
+                    ★★★★☆ 4.5
+                </p>
+
+                <p class="price">
+                    ₹1,299
+                </p>
+
+                <button class="add-cart">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <!-- Product 7 -->
+            <div
+                class="product-card"
+                data-name="Casual T Shirt"
+                data-price="599"
+            >
+
+                <img
+                    src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=500&q=80"
+                    alt="Casual T Shirt"
+                >
+
+                <h3>Casual T Shirt</h3>
+
+                <p class="rating">
+                    ★★★★☆ 4.0
+                </p>
+
+                <p class="price">
+                    ₹599
+                </p>
+
+                <button class="add-cart">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <!-- Product 8 -->
+            <div
+                class="product-card"
+                data-name="Desk Lamp"
+                data-price="749"
+            >
+
+                <img
+                    src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=500&q=80"
+                    alt="Desk Lamp"
+                >
+
+                <h3>Desk Lamp</h3>
+
+                <p class="rating">
+                    ★★★★☆ 4.3
+                </p>
+
+                <p class="price">
+                    ₹749
+                </p>
+
+                <button class="add-cart">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Cart Overlay -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+
+    <!-- Shopping Cart -->
+    <div class="cart-panel" id="cartPanel">
+
+        <div class="cart-header">
+
+            <h2>
+                Shopping Cart
+            </h2>
+
+            <button id="closeCart">
+                ×
+            </button>
+
+        </div>
+
+
+        <div id="cartItems">
+
+            <p class="empty-cart">
+                Your cart is empty.
+            </p>
+
+        </div>
+
+
+        <div class="cart-footer">
+
+            <h3>
+                Subtotal:
+                <span id="cartTotal">₹0</span>
+            </h3>
+
+            <button id="checkoutBtn">
+                Proceed to Checkout
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer id="footer">
+
+        <div class="footer-container">
+
+            <div>
+                <h3>ShopZone</h3>
+                <p>Amazon-inspired e-commerce website.</p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <p>About Us</p>
+                <p>Contact</p>
+                <p>Privacy</p>
+            </div>
+
+            <div>
+                <h3>Customer Service</h3>
+                <p>Help Center</p>
+                <p>Returns</p>
+                <p>Orders</p>
+            </div>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 ShopZone. Created as a frontend practice project.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
